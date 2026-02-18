@@ -4,7 +4,7 @@
 
 <template> 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark mb-4">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
                 <RouterLink class="navbar-brand" to="/">Laboration 3</RouterLink>
 

@@ -6,7 +6,7 @@
 <template>
     <AppHeader/>
 
-    <main class="container">
+    <main >
         <RouterView/>
     </main>
 </template>
