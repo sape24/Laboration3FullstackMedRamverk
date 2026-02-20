@@ -6,7 +6,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
-                <RouterLink class="navbar-brand" to="/">Laboration 3</RouterLink>
+                <RouterLink class="navbar-brand" to="/">Laboration 3</RouterLink> <!-- Routerlink istället för a tagg för att snabbt navigera de olika viewsen-->
 
                 <div class="navbar-nav">
                     <RouterLink class="nav-link" to="/">Hem</RouterLink>
@@ -18,7 +18,7 @@
     </header>
 </template>
 
-<style scoped>
+<style scoped>  /* scoped så denna CSS enbart används på denna komponent*/
     .navbar {
         background-color: rgb(12, 201, 235);
         padding: 1%;

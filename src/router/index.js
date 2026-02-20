@@ -1,11 +1,11 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'       //importerar vue router med funktioner samt de olika viewsen
 import HomeView from '../views/homeView.vue'
 import SubpageView from '../views/subpageView.vue'
 import AboutView from '../views/aboutView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [
+  routes: [                  //definierar applikationens routes med andra ord url sökväg och vilken view som ska visas
     {
       path: '/',
       name: 'home',
@@ -18,7 +18,7 @@ const router = createRouter({
     },
     {
       path: '/about',
-      name: 'name',
+      name: 'about',
       component: AboutView
     }
   ],

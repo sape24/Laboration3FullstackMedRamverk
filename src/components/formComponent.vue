@@ -1,15 +1,15 @@
-<script setup>
+<script setup>   
 import {ref} from 'vue'
 
-const emit = defineEmits(['add-book'])
+const emit = defineEmits(['add-book']) //Deinierar en emit för att kunna skicka den nya bokens data till en view
 
-const title = ref('')
+const title = ref('')       //skapar reaktiva variablar för formuläret som binds med vmodel
 const author = ref('')
 const pages = ref(0)
 const isRead = ref(false)
 
 const submitForm = () => {
-    emit('add-book', {
+    emit('add-book', {                  //skickar iväg all ifylld data som ett objekt till viewen och tömmer sedan alla fälten
         title: title.value,
         author: author.value,
         pages: pages.value,
@@ -24,7 +24,7 @@ const submitForm = () => {
 </script>
 
 <template>
-    <form @submit.prevent="submitForm">
+    <form @submit.prevent="submitForm">  <!-- Lyssnar på submit prevent stoppar sidan från att laddas om-->
         <div class="mb-3">
             <label for="title" class="form-label">Titel:</label>
             <input v-model="title" type="text" class="form-control" id="title" required>

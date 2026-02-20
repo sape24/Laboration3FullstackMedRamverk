@@ -8,8 +8,8 @@ import articleComponent from '@/components/articleComponent.vue';
             <img src="../images/bookbanner.jpg" alt="Bokbanner">
         </div>
 
-        <div class="container mt-4">
-            <articleComponent
+        <div class="container mt-4"> <!-- Importerar in articlecomponent som skickar text som props-->
+            <articleComponent                     
                 title="Böcker"
                 text="Läsning är mitt sätt att koppla av. Jag läser allt från klassiker till modern sci-fi. Denna webbplats är mitt egna system för att logga titlar jag läst samt vill läsa. Databasen sparar även sidor och författare för framtida utveckling av sidan som till exempel sortera titlar med författare."
             />

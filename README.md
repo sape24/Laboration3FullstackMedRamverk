@@ -1,23 +1,32 @@
-# Laboration3
+## Frontend Laboration 3
+En single-page applikation byggd med Vue.js och Vite. Applikationen konsumerar ett REST-API för att hantera böcker genom ett reaktivt och responsivt gränssnitt.
 
-This template should help get you started developing with Vue 3 in Vite.
+## CRUD för böcker
 
-## Recommended IDE Setup
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+| Sida   | Beskrivning                                                                    |
+|--------|--------------------------------------------------------------------------------|
+| Hem    | Landningssida                                                                  |
+| Böcker | View som visar tabellen, formulär och hanterar Fetch-anrop (GET, POST, DELETE) |
+| Om     | Info sida med reflektioner kring projektet och Vue.js                          |
 
-## Recommended Browser Setup
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
 
-## Customize configuration
+## Tekniker
+- **Vue Router**
+- **Props**
+- **Emits**
+- **v-model**
+- **Fetch API**
+- **Vue.js**
+- **Vite**
+- **Bootstrap**
+## Komponeneter
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- articleComponent.vue
+- formComponent.vue
+- headerComponent.vue
+- tableComponent.vue
 
 ## Project Setup
 

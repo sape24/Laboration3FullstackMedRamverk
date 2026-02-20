@@ -1,5 +1,5 @@
 <script setup>
-defineProps({
+defineProps({         //Tar emot titel och text via props vilket gör artikeln återanvändbar 
     title: String,
     text: String
 })
@@ -7,7 +7,7 @@ defineProps({
 
 <template>
     <article class="article-box">
-        <h2>{{ title }}</h2> 
+        <h2>{{ title }}</h2>                       <!-- använder dubbla måsvingar för att skriva ut värdena som togs emot via props-->
         <p>{{ text }}</p>
     </article>
 </template>
