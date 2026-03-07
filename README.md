@@ -1,7 +1,7 @@
 ## Frontend Laboration 3
 En single-page applikation byggd med Vue.js och Vite. Applikationen konsumerar ett REST-API för att hantera böcker genom ett reaktivt och responsivt gränssnitt.
 
-## CRUD för böcker
+## Webbplatsens sidor
 
 
 | Sida   | Beskrivning                                                                    |
